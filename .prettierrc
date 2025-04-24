@@ -8,6 +8,9 @@
       "options": {
         "parser": "typescript"
       }
+    },
+    {
+      "files": "*.{json,md}"
     }
   ]
 }

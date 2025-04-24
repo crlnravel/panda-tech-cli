@@ -1,5 +1,8 @@
+import { intro, outro } from "@clack/prompts";
+
 function main() {
-  console.log('Hello, world!');
+  intro(`create-my-app`);
+  outro(`You're all set!`);
 }
 
 main();

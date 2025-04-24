@@ -11,6 +11,11 @@
     "outDir": "dist",
     "declaration": true
   },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+    }
+  },
   "include": ["src/**/*.ts"],
   "exclude": ["src/**/*.spec.ts", "node_modules"]
 }

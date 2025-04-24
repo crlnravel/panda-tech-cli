@@ -7,7 +7,7 @@
     "prepare": "husky",
     "start": "node ./build/index.js",
     "dev": "nodemon",
-    "develop": "node --no-warnings=ExperimentalWarning --loader ts-node/esm ./src/index.ts",
+    "develop": "ts-node ./src/index.ts",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch --passWithNoTests",
     "test:coverage": "jest --coverage --passWithNoTests",
